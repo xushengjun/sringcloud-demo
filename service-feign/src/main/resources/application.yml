@@ -1,0 +1,15 @@
+server:
+  port: 8885
+
+spring:
+  application:
+    name: service-feign
+  profiles:
+    active: dev
+
+feign:
+  hystrix:
+    enabled=true: true
+
+
+
